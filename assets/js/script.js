@@ -1,7 +1,6 @@
 var formEl = document.querySelector("#task-form");
 var tasksToDoEl = document.querySelector("#tasks-to-do");
 
-<<<<<<< HEAD
 var createTaskHandler = function() {
     event.preventDefault();
     var taskNameInput = document.querySelector("input[name='task-name']").value;
@@ -25,7 +24,6 @@ var createTaskHandler = function() {
   }
 
 formEl.addEventListener("submit", createTaskHandler);
-=======
 var taskFormHandler = function (event) {
   event.preventDefault();
   var taskNameInput = document.querySelector("input[name='task-name']").value;
@@ -48,4 +46,3 @@ var taskFormHandler = function (event) {
 };
 
 formEl.addEventListener("submit", taskFormHandler);
->>>>>>> develop
